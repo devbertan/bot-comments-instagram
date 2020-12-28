@@ -73,13 +73,7 @@ class InstagramBot:
         # ---------------------------------------------------
 
         comments = [
-                '´p´p',
-                'po',
-                'iui',
-                'ytyt',
-                'ytre',
-                'kl',
-                'qwq',
+                '',
             ]
 
         # ---------------------------------------------
@@ -139,9 +133,9 @@ class InstagramBot:
             comments05.append(i)
 
         # Insere o link dos sorteios que quer comentar nas variáveis
-        sorteio01 = 'https://www.instagram.com/p/CI_RaHDLk0J/'
-        sorteio02 = 'https://www.instagram.com/p/CDAWAiGgSbp/'
-        sorteio03 = 'https://www.instagram.com/p/CFvTBEAJfO3/'
+        sorteio01 = ''
+        sorteio02 = ''
+        sorteio03 = ''
         sorteio04 = ''
         sorteio05 = ''
 
@@ -175,9 +169,9 @@ class InstagramBot:
                 time.sleep(random.randint(1, 20))
 
                 # Insira aqui a quantidade de comentarios que devem ser feitos em cada sorteio
-                quantidadeSorteio01 = 1
-                quantidadeSorteio02 = 1
-                quantidadeSorteio03 = 1
+                quantidadeSorteio01 = 0
+                quantidadeSorteio02 = 0
+                quantidadeSorteio03 = 0
                 quantidadeSorteio04 = 0
                 quantidadeSorteio05 = 0
 
@@ -423,7 +417,7 @@ print('Script Iniciado')
 print('-'*20)
 
 # Entre com o usuário e senha aqui
-Bot = InstagramBot("bbot61631@gmail.com", "bot001")
+Bot = InstagramBot("user", "password")
 Bot.login()
 
 print('-'*20)
